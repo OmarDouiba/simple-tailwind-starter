@@ -5,26 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          fontFamily: {
+            sans: ['ui-sans-serif', 'system-ui'],
+            serif: ['Tapestry', 'Georgia'],
+            mono: ['ui-monospace', 'SFMono-Regular'],
+          },
+        },
+      };
+    </script>
     <title>Typography</title>
   </head>
   <body>
     <!-- Font Family -->
+    <h1 class="underline decoration-blue-400 text-3xl text-blue-800">
+      Font Family
+    </h1>
+    <p class="font-sans">The quick brown fox</p>
+    <p class="font-serif">The quick brown fox</p>
+    <p class="font-mono">The quick brown fox</p>
 
     <!-- Font Size -->
+    <h1 class="underline decoration-blue-400 text-3xl text-blue-800">
+      Font Size
+    </h1>
+    <p class="text-xs/8">The quick brown fox</p>
+    <p class="text-sm">The quick brown fox</p>
+    <p class="text-base">The quick brown fox</p>
+    <p class="text-lg">The quick brown fox</p>
+    <p class="text-xl/8">The quick brown fox</p>
+    <p class="text-2xl">The quick brown fox</p>
+    <p class="text-3xl">The quick brown fox</p>
+    <p class="text-9xl">The quick brown fox</p>
 
     <!-- Font Weight -->
+    <h1 class="underline decoration-blue-400 text-3xl text-blue-800">
+      Font Weight
+    </h1>
+    <p class="font-light">The quick brown fox</p>
+    <p class="font-normal">The quick brown fox</p>
+    <p class="font-medium">The quick brown fox</p>
+    <p class="font-bold">The quick brown fox</p>
+    <p class="font-semibold">The quick brown fox</p>
+    <p class="font-extrabold">The quick brown fox</p>
 
     <!-- Letter Spacing -->
+    <h1 class="underline decoration-blue-400 text-3xl text-blue-800">
+      Letter Spacing
+    </h1>
+    <p class="tracking-tighter">The quick brown fox</p>
+    <p class="tracking-tight">The quick brown fox</p>
+    <p class="tracking-normal">The quick brown fox</p>
+    <p class="tracking-wide">The quick brown fox</p>
+    <p class="tracking-wider">The quick brown fox</p>
+    <p class="tracking-widest">The quick brown fox</p>
 
     <!-- Text Alignment -->
+    <h1 class="underline decoration-blue-400 text-3xl text-blue-800">
+      Text Alignment
+    </h1>
+    <p class="text-left">The quick brown fox</p>
+    <p class="text-right">The quick brown fox</p>
+    <p class="text-center">The quick brown fox</p>
+    <p class="text-justify">The quick brown fox</p>
+    <p class="text-start">The quick brown fox</p>
+    <p class="text-end">The quick brown fox</p>
 
     <!-- Text Decoration -->
+    <h1 class="underline decoration-blue-400 text-3xl text-blue-800">
+      Text Decoration
+    </h1>
+    <p class="underline decoration-red-500">The quick brown fox</p>
+    <p class="underline decoration-transparent">The quick brown fox</p>
+    <p class="underline decoration-slate-50">The quick brown fox</p>
+    <p class="underline decoration-slate-950">The quick brown fox</p>
 
     <!-- Decoration Style -->
+    <h1 class="underline decoration-blue-400 text-3xl text-blue-800">
+      Decoration Style
+    </h1>
+    <p class="underline decoration-solid">The quick brown fox</p>
+    <p class="underline decoration-double">The quick brown fox</p>
+    <p class="underline decoration-dotted">The quick brown fox</p>
+    <p class="underline decoration-wavy">The quick brown fox</p>
 
     <!-- Decoration Offset -->
+    <h1 class="underline decoration-blue-400 text-3xl text-blue-800">
+      Decoration Offset
+    </h1>
+    <p class="underline underline-offset-auto">The quick brown fox</p>
+    <p class="underline underline-offset-0">The quick brown fox</p>
+    <p class="underline underline-offset-1">The quick brown fox</p>
+    <p class="underline underline-offset-2">The quick brown fox</p>
+    <p class="underline underline-offset-4">The quick brown fox</p>
+    <p class="underline underline-offset-8">The quick brown fox</p>
 
     <!-- Text Transform -->
+    <h1 class="underline decoration-blue-400 text-3xl text-blue-800">
+      Text Transform
+    </h1>
+    <p class="uppercase">The quick brown fox</p>
+    <p class="lowercase">The quick brown fox</p>
+    <p class="capitalize">The quick brown fox</p>
+    <p class="normal-case">The quick brown fox</p>
   </body>
 </html>
 
